@@ -1,0 +1,27 @@
+Use care when attaching files. Attachments are an easy way to share programs, graphics, sounds, or any other kind of file you find on your computer. If you intend to send someone a large file (say, greater than 20K) you should contact them and ask their permission first. There are three reasons for this. First, you don't even know if they have e-mail software that can handle attached files. Second, large files (we're talking megabytes here) can completely fill someone's e-mail box.  Then they can't receive any more e-mail. Third, some e-mail programs limit the size of file attachments. Your e-mail message may not get sent if the file is too large, or it may bounce back to you. Graphics and sound files tend to be quite large, so send these with care.
+
+Think about distribution lists. You may want to send an e-mail to several people at once. The best way to do this is to use a list. Start a blank text file. Start listing all the e-mail addresses you want included in the list, separated by a comma and a blank space. Cut and paste the distribution list into the "To," the "CC," or the "BCC" field in your e-mail client. Be sure to use your own e-mail address in the "To" field. That way you will receive an e-mail to verify that it was sent! The advantage to the BCC field is that everyone on your list will receive a copy of your message without the entire list appearing in the header.
+
+Distribution lists are not intended for spamming purposes. It's often the practice to include instructions on how to be removed from a distribution list for those who don't wish to receive future mailings.
+
+Do not spam! Spam is the e-mail equivalent of junk mail, and spamming is the practice of sending out unsolicited bulk e-mail. Some e-mail systems let you filter out unwanted mail, but they're not perfect. And nothing gets people angrier than seeing their inbox fill up with junk every day. Do your part to help by not spamming others. And report any spam you get to your Internet Service Provider -- ISP.
+
+Group communication is no different from sending out a single e-mail. But sometimes it's hard to tell what good Netiquette is when joining a new online group. As always, it's important to follow the basic rules above, but each group has its own quirks and customs. Here's some general advice for dealing with new group Netiquette situations.
+
+When you're new to the area, it's best to observe for a moment before diving into the mix. When you enter a new chat room, or when you want to post something to a bulletin board for the first time, stop and look around. The best way to get a feel for the correct group Netiquette is to see what the people around you are doing. Another good way to find out what's going on is to look for a FAQ, About, or Help page.
+
+Privacy is another issue on the Internet. The truth is, there is no such thing as complete privacy. If you send out an e-mail, there's always a chance someone else could intercept it. And with most e-mail systems, the E-mail Administrator has access to your messages. Some companies even monitor their employee e-mail. As a result, you need to think about security. The following are a few tips to get you started.
+
+Don't e-mail any information you want to keep secure! And never give out your password, not even to friends. If someone else has it, there's a chance that more people will find out. Don't use easy-to-guess words or numbers, like your name or your birthday. It's easy for people to guess those. Use both numbers and symbols. It is much harder guessing a password like "z67Aa98bC". And make sure you change your password a lot, in case someone does find out.
+
+Don't leave your machine running when you're not there. This is especially true if you're logged on to someplace secure. If you must leave your computer unattended use a screen saver with password protection for greater security.
+
+Beware of viruses and hoaxes. A virus can't be transmitted through the body (text) of an e-mail. You need to have an executable program that you download from somewhere else to introduce a virus into your computer. A virus could be carried in any attached files you receive with your e-mail. Make sure you use a current anti-virus scanning program before running any attached files. And never open a file if you don't know the sender.
+
+Also be wary of any messages you receive that warn you of an e-mail virus and tell you to immediately forward the message to everyone you know. These are usually hoaxes.
+
+To protect yourself from viruses, first invest in some SOLID virus protection software. The two virus protection giants are Norton Antivirus (also known as Symantec) & McAfee VirusScan (Network Associates). 
+
+Second, create a rescue disk set! The virus protection software will include one.
+
+Third, don't keep chain letters and hoaxes going. Do not forward them to anyone and everyone you know. A responsible Netizen will be mindful of others and delete them immediately.

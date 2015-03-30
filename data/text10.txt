@@ -1,0 +1,114 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+public class TestWindow6_9 extends JFrame {
+	private JLabel aLabel;
+	private JTextField aField, displayField;
+	private JButton exitButton;
+	
+	public TestWindow6_9() {
+		//call JFrame constructor to set title bar string
+		super("Inner Class Demonstraction");
+		//use inherited method getContentPane to get a windows content pane
+		Container container = getContentPane();
+		container.setLayout(new FlowLayout());
+		aLabel = new JLabel("");
+		aField = new JTextField(20);
+		container.add(aLabel);
+		container.add(aField);
+		//set up displeyField
+		displayField = new JTextField(30);
+		displayField.setEditable(false);
+		container.add(displayField);
+		//set up exitButton
+		exitButton = new JButton("exit");
+		container.add(exitButton);
+		ActionEventHandler handler = new ActionEventHandler();
+		exitButton.addActionListener(handler);
+		aField.addActionListener(handler);
+		setSize(400,140);
+		setVisible(true);
+	}
+	
+	public static void main(String [] args) {
+		TestWindow6_9  window = new TestWindow6_9();
+	}
+	
+	//inner class declaration for handling JButton events
+	private class ActionEventHandler implements ActionListener {
+		//method to handle action events
+		public void actionPerformed(ActionEvent event) {
+			if( event.getSource() == exitButton) System.exit(0);
+			else if( event.getSource() == aField) {
+				String output;
+				output = aField.getText();
+				displayField.setText(":" + output);
+			}
+		}
+	}
+}
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+public class TestWindow6_10 extends JFrame {
+	private JLabel aLabel_1, aLabel_2, aLabel_3;
+	private JTextField aField_1, aField_2, aField_3, displayField;
+	private JButton exitButton;
+	
+	public TestWindow6_10() {
+		//call JFrame constructor to set title bar string
+		super("");
+		//use inherited method getContentPane to get a windows content pane
+		Container container = getContentPane();
+		container.setLayout(new FlowLayout());
+		aLabel_1 = new JLabel("");
+		aField_1 = new JTextField(10);
+		container.add(aLabel_1);
+		container.add(aField_1);
+		aLabel_2 = new JLabel("");
+		aField_2 = new JTextField(10);
+		container.add(aLabel_2);
+		container.add(aField_2);
+		aLabel_3 = new JLabel("");
+		aField_3 = new JTextField(10);
+		container.add(aLabel_3);
+		container.add(aField_3);
+		//set up displeyField
+		displayField = new JTextField(30);
+		displayField.setEditable(false);
+		container.add(displayField);
+		exitButton = new JButton("exit");
+		container.add(exitButton);
+		ActionEventHandler handler = new ActionEventHandler();
+		aField_1.addActionListener(handler);
+		aField_2.addActionListener(handler);
+		aField_3.addActionListener(handler);
+		exitButton.addActionListener(handler);
+		setSize(600,140);
+		setVisible(true);
+	}
+	
+	public static void main(String [] args) {
+		TestWindow6_10  window = new TestWindow6_10();
+	}
+	
+	//inner class declaration for handling JButton events
+	private class ActionEventHandler implements ActionListener {
+		//method to handle action events
+		public void actionPerformed(ActionEvent event) {
+			if( event.getSource() == exitButton) System.exit(0);
+			else if( event.getSource() == aField_1 || event.getSource() == aField_2 || event.getSource() == aField_3) {
+				String output_1, output_2, output_3;
+				String output = ":";
+				output_1 = aField_1.getText();
+				output_2 = aField_2.getText();
+				output_3 = aField_3.getText();
+				output += output_1 + ":" + output_2 + ":" + output_3;
+				if(Integer.parseInt(output_1) > 12)  output += " AM";
+				else output += " PM";
+				displayField.setText(output);
+			}
+		}
+	}
+}
